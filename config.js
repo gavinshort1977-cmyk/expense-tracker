@@ -9,4 +9,4 @@
 //  Never put a "client secret" here or anywhere in this app.
 // =====================================================================
 
-export const GOOGLE_CLIENT_ID = "";
+export const GOOGLE_CLIENT_ID = "516797802436-6uce9g4ckdrtqfcib440nk05mjeedrgv.apps.googleusercontent.com";
