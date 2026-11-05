@@ -1,0 +1,27 @@
+{
+ "app": "card-cash-ledger",
+ "v": 1,
+ "savedAt": "2026-10-28T08:15:00.000Z",
+ "settings": {
+  "cards": {
+   "cbd": {"statementDay": 12, "dueDay": 6, "limit": 15000},
+   "enbd": {"statementDay": 20, "dueDay": 15, "limit": null},
+   "citi": {"statementDay": null, "dueDay": null, "limit": null},
+   "amazon": {"statementDay": 3, "dueDay": 28, "limit": 5000}
+  },
+  "categories": ["Groceries", "Dining & coffee", "Fuel & transport", "Bills & utilities", "Home", "Shopping", "Health & fitness", "Entertainment", "Subscriptions", "Travel", "Personal care", "Other", "Pets (test)"],
+  "budgets": {"Groceries": 1800, "Dining & coffee": 600, "Pets (test)": 150},
+  "fx": {"AED": 1, "USD": 3.6725, "SAR": 0.9793, "EUR": 4.12, "GBP": 4.9, "DKK": 0.552, "INR": 0.0437},
+  "paid": {"cbd:2026-10-12": true},
+  "rules": {"TESTMART HYPERMARKET": "Groceries", "PRETEND CAFE": "Dining & coffee"},
+  "lastBackup": "2026-10-28T08:15:00.000Z"
+ },
+ "expenses": [
+  {"id": "mgt1a2b3cfakeid1", "date": "2026-10-02", "amount": 212.4, "currency": "AED", "aed": 212.4, "method": "cbd", "samsungPay": true, "category": "Groceries", "note": "Testmart weekly (invented)", "createdAt": 1790900000000},
+  {"id": "mgt1a2b3cfakeid2", "date": "2026-10-05", "amount": 19.99, "currency": "USD", "aed": 73.41, "method": "citi", "samsungPay": false, "category": "Subscriptions", "note": "Streamflix (invented)", "createdAt": 1790990000000},
+  {"id": "mgt1a2b3cfakeid3", "date": "2026-10-09", "amount": 45, "currency": "AED", "aed": 45, "method": "cash", "samsungPay": false, "category": "Dining & coffee", "note": "Pretend cafe, \"quoted\" note, with comma", "createdAt": 1791100000000},
+  {"id": "mgt1a2b3cfakeid4", "date": "2026-09-21", "amount": 120, "currency": "AED", "aed": 120, "method": "enbd", "samsungPay": false, "category": "Fuel & transport", "note": "ADNOC SAMPLE STATION", "createdAt": 1790500000000, "source": "statement"},
+  {"id": "mgt1a2b3cfakeid5", "date": "2026-08-14", "amount": 300, "currency": "AED", "aed": 300, "method": "amazon", "applePay": true, "category": "Shopping", "note": "Older record with the legacy applePay flag", "createdAt": 1786000000000},
+  {"id": "mgt1a2b3cfakeid6", "date": "2026-10-20", "amount": 64, "currency": "AED", "aed": 64, "method": "wallet", "samsungPay": false, "category": "Pets (test)", "note": "", "createdAt": 1791800000000}
+ ]
+}

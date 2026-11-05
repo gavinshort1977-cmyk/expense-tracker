@@ -1,0 +1,103 @@
+{
+ "password": "test-1234",
+ "a": {
+  "statementDate": "2026-10-15",
+  "dueDate": "2026-11-09",
+  "txs": [
+   {
+    "date": "2026-09-20",
+    "description": "TESTMART HYPERMARKET DUBAI",
+    "aed": 245.5,
+    "amount": 245.5,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2026-09-22",
+    "description": "STREAMFLIX.COM",
+    "aed": 58.72,
+    "amount": 15.99,
+    "currency": "USD",
+    "type": "charge"
+   },
+   {
+    "date": "2026-09-25",
+    "description": "ADNOC SAMPLE STATION 999",
+    "aed": 120.0,
+    "amount": 120.0,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2026-09-28",
+    "description": "PAYMENT RECEIVED - THANK YOU",
+    "aed": 1000.0,
+    "amount": 1000.0,
+    "currency": "AED",
+    "type": "payment"
+   },
+   {
+    "date": "2026-10-01",
+    "description": "PRETEND CAFE JUMEIRAH",
+    "aed": 38.0,
+    "amount": 38.0,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2026-10-03",
+    "description": "REFUND TESTMART HYPERMARKET",
+    "aed": 45.5,
+    "amount": 45.5,
+    "currency": "AED",
+    "type": "credit"
+   },
+   {
+    "date": "2026-10-10",
+    "description": "IMAGINARY AIRWAYS",
+    "aed": 1414.49,
+    "amount": 1414.49,
+    "currency": "AED",
+    "type": "charge"
+   }
+  ]
+ },
+ "b": {
+  "statementDate": "2027-01-15",
+  "dueDate": "2027-02-10",
+  "txs": [
+   {
+    "date": "2026-12-18",
+    "description": "FAKEFOODS DELIVERY",
+    "aed": 64.25,
+    "amount": 64.25,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2026-12-24",
+    "description": "MOCK CINEMAS MALL",
+    "aed": 95.0,
+    "amount": 95.0,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2027-01-02",
+    "description": "DEMO PHARMACY 22",
+    "aed": 33.1,
+    "amount": 33.1,
+    "currency": "AED",
+    "type": "charge"
+   },
+   {
+    "date": "2027-01-09",
+    "description": "EXAMPLE TELECOM BILL",
+    "aed": 299.0,
+    "amount": 299.0,
+    "currency": "AED",
+    "type": "charge"
+   }
+  ]
+ }
+}

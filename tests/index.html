@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ledger tests</title>
+<style>
+body{font:14px/1.5 system-ui,sans-serif;margin:16px;background:#fff;color:#111}
+li{white-space:pre-wrap;font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+.pass{color:#0a7d0a}.fail{color:#c23434}
+</style>
+</head>
+<body>
+<h1>Card &amp; Cash Ledger: automated tests</h1>
+<p>Invented data only. Google Drive is mocked; nothing leaves this page. <b id="sum">Running…</b></p>
+<ol id="out"></ol>
+<script type="module">
+import { run } from "./harness.js";
+import "./merge.test.js";
+import "./store.test.js";
+import "./crypto.test.js";
+import "./sync.test.js";
+import "./statement.test.js";
+const f = new URLSearchParams(location.search).get("only");
+run(f).catch(e => { document.getElementById("sum").textContent = "Runner crashed: " + e; window.__results = { done: true, crashed: String(e) }; });
+</script>
+</body>
+</html>
